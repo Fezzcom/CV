@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Curriculum Vitae/Portfolio</title>
+    <script src="https://kit.fontawesome.com/your_fontawesome_kit_id.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-side {
+    background-color: #f0f4f8;
+    color: #333;
+    padding: 20px;
+    width: 35%;
+}
+
+.right-side {
+    background-color: #ffffff;
+    color: #555;
+    padding: 20px;
+    width: 65%;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+.references {
+    margin-top: 20px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    line-height: 1.6;
+}
+
+.experience .job {
+    margin-bottom: 15px;
+}
+
+.experience .job h3 {
+    color: #3498db;
+}
+
+.education .degree {
+    margin-bottom: 15px;
+}
+
+.education .degree h3 {
+    color: #e74c3c;
+}
+
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #ecf0f1;
+    padding: 8px 15px;
+    border-radius: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.portfolio .project {
+    margin-bottom: 15px;
+}
+
+.portfolio .project h3 {
+    color: #9b59b6;
+}
+
+.portfolio .project a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.portfolio .project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="left-side">
+        <header>
+            <div class="profile">
+                <img src="./Fezz.jpeg" alt="Fezile Sompa">
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> sompfez90@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +27 787727143</p>
+                <p><i class="fab fa-linkedin"></i> linkedin.com/in/Fezile.Sompa</p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/Fezzcom" target="_blank">github.com/Fezzcom</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Johannesburg, South Africa</p>
+            </div>
+            <div class="references">
+            <h2>References</h2>
+            <p>Available upon request.</p>
+            </div>
+        </aside>
+        <main class="right-side">
+              <section class="summary">
+           <h1>Fezile Sompa</h1>
+                <h2>IT Graduate & System Support Learner</h2>
+            <h2>Summary</h2>
+            <p>A highly motivated and results-oriented IT Graduate and detail-oriented with a strong foundation in business analysis and system support.Certified in CompTIA Security+,demonstrating a solid understanding of cybersecurity principles and best practices.Skilled in analysing business processes, supporting IT systems, and troubleshooting technical issues.Currently expanding knowledge in system support with focus on network administration and end-user assistance.Committed to leveraging both technical and analytical skills to contribute to efficient and secure IT environment..</p>
+        </section>
+
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>System Support Technician Learner</h3>
+                <p class="company">DVT,Rosebank,Johannesburg (2024 - Present)</p>
+                <ul>
+                    <li>Responsible for providing technical support and maintenaince for computer systems,hardware,software, and networks across an organization.Work with end-users to diagnising and resolve issues,ensure system functionality and maintain secure up-to-date IT environments</li>
+                    <li>Install, configure and maintain operating systems, applications and peripheral devices.Monitor system performance and troubleshooting,maintain documentaion of issues and solutions in ticketing system</li>
+                    <li>Manual testing for web application,termination of straight-through cables and cross-over cables</li>
+                </ul>
+            </div>
+            </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="degree">
+                <h3>IT in Business Analysis</h3>
+                <p class="institution">Walter Sisulu University (2013)</p>
+                <p class="details">Business Analysis and Information Systems</p>
+            </div>
+            </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <ul>
+                    <li>Operating Systems (Windows)</li>
+                    <li>Cybersecurity Fundamentals (CompTIA Security+ knowledge)</li>
+                    <li>Hardware & Software Installation</li>
+                    <li>Network Fundamentals</li>
+                    <li>Analytical Thinking & Problem Solving</li>
+                    <li>Adaptability & Willingness to Learn</li>
+                    <li>Time Management</li>
+                    <li>Leadership</li>
+                    </ul>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Quality Assurance for User Manual Web Application</h3>
+                <p class="description">Conducted manual testing for User application</p>
+                <p class="technologies">Technologies: Excel/Google Sheets, MS Word</p>
+                <a href="https://github.com/Fezzcom/DVT" target="_blank">View Project</a>
+            </div>
+            </section>
+
+        <footer>
+<div style="text-align:center; margin-top: 20px;">
+<a href="path/to/your/cv_portfolio.html" download="Fezile-Sompa_CV.html">
+	<button style="padding: 10px 20px; background-color: #3498db; color: white; boarder: none; border-radius: 5px; cursor: pointer;">
+		Download CV/Portfolio
+	</button>
+</a>
+</div>
+            <p>&copy; 2025 Fezile Sompa. All rights reserved.</p>
+        </footer>
+    </div>
+
+
+
+
+</body>
+</html>

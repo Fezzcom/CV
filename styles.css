@@ -1,0 +1,47 @@
+img{
+    width: 200px;
+    height: 200px;
+  body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4; /* Background color for the entire page */
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff; /* Background color for the main container (optional) */
+    box-shadow: 0 0 10px rgba(19, 59, 65, 0.1);
+}
+
+.left-side {
+    width: 30%;
+    background-color: #e9ecef; /* Different background color for the left side */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* ... other CSS rules for the left-side content ... */
+
+.right-side {
+    width: 70%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* ... other CSS rules for the right-side content ... */
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
+    }
+}  
+}
