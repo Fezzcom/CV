@@ -1,3 +1,3 @@
 # CV
 
- https://fezzcom.github.io/CV
+ https://fezzcom.github.io/CV/
